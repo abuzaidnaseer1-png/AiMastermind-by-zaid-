@@ -1,0 +1,4 @@
+// Sirf timer chal raha tha
+setTimeout(() => {
+  setMessages(prev => [...prev, { role: 'ai', content: 'Demo response' }]);
+}, 1000);
